@@ -1,0 +1,44 @@
+/**
+ * stock-management-admin.scss
+ * Governs the look and feel of Stock Management admin settings.
+ */
+
+#stock-management,
+.email-template-wrap{
+  .stock-management-fields-wrap,
+  .email-template-fields-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .form-row{
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 14%;
+      margin: 10px 10px 0 0;
+      label{
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+        &:before{
+          height: 20px;
+          width: 23px;
+        }
+      }
+    }
+    textarea{
+      min-height: 150px;
+    }
+  }
+
+}
+.post-type-stock-management{
+  #message.updated.notice.is-dismissible,
+  .row-actions .untrash,
+  .bulkactions,
+  .button-link.editinline{
+    display: none;
+  }
+}
