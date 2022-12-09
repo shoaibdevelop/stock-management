@@ -1,5 +1,5 @@
 === Stock Management ===
-Contributors: sohailsaleem
+Contributors: shoaibsaleem
 Tags: Woocommerce stock manager, stock manager WP, Woo stocks
 Requires at least: 5.0+
 Tested up to: 5.9.2
